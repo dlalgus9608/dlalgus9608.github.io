@@ -2,8 +2,8 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>ScatterChartID5303fce2c72</title>
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>ScatterChartID16f828503746</title>
+<meta http-equiv="content-type" content="text/html;charset=euc-kr" />
 <style type="text/css">
 body {
   color: #444444;
@@ -17,15 +17,15 @@ body {
 </style>
 </head>
 <body>
- <!-- ScatterChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Mon May 30 21:12:18 2016 -->
+ <!-- ScatterChart generated in R 3.2.3 by googleVis 0.5.10 package -->
+<!-- Thu Jun 02 13:24:09 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataScatterChartID5303fce2c72 () {
+function gvisDataScatterChartID16f828503746 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -693,37 +693,39 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartScatterChartID5303fce2c72() {
-var data = gvisDataScatterChartID5303fce2c72();
+function drawChartScatterChartID16f828503746() {
+var data = gvisDataScatterChartID16f828503746();
 var options = {};
 options["allowHtml"] = true;
 options["width"] =    500;
 options["height"] =    600;
 options["legend"] = "none";
-options["title"] = "wdi2013 lifeExp and Income";
+options["pointShape"] = "square";
+options["trendlines"] = "linear";
+options["title"] = "기대수명과 소득의 상관관계";
 options["hAxis"] = {title:'lifeExp'};
 options["vAxis"] = {title:'Income'};
 
 
-    chartScatterChartID5303fce2c72 = new google.visualization.ChartWrapper({
+    chartScatterChartID16f828503746 = new google.visualization.ChartWrapper({
     dataTable: data,       
     chartType: 'ScatterChart',
-    containerId: 'ScatterChartID5303fce2c72',
+    containerId: 'ScatterChartID16f828503746',
     options: options
     });
-    chartScatterChartID5303fce2c72.draw();
+    chartScatterChartID16f828503746.draw();
     
 
 }
 
-  function openEditorScatterChartID5303fce2c72() {
+  function openEditorScatterChartID16f828503746() {
   var editor = new google.visualization.ChartEditor();
   google.visualization.events.addListener(editor, 'ok',
   function() { 
-  chartScatterChartID5303fce2c72 = editor.getChartWrapper();  
-  chartScatterChartID5303fce2c72.draw(document.getElementById('ScatterChartID5303fce2c72')); 
+  chartScatterChartID16f828503746 = editor.getChartWrapper();  
+  chartScatterChartID16f828503746.draw(document.getElementById('ScatterChartID16f828503746')); 
   }); 
-  editor.openDialog(chartScatterChartID5303fce2c72);
+  editor.openDialog(chartScatterChartID16f828503746);
   }
     
  
@@ -743,9 +745,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartScatterChartID5303fce2c72);
+callbacks.push(drawChartScatterChartID16f828503746);
 })();
-function displayChartScatterChartID5303fce2c72() {
+function displayChartScatterChartID16f828503746() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -769,17 +771,17 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartScatterChartID5303fce2c72"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartScatterChartID16f828503746"></script>
  
 <!-- divChart -->
-<input type='button' onclick='openEditorScatterChartID5303fce2c72()' value='other table'/>  
-<div id="ScatterChartID5303fce2c72" 
+<input type='button' onclick='openEditorScatterChartID16f828503746()' value='다른 차트'/>  
+<div id="ScatterChartID16f828503746" 
   style="width: 500; height: 600;">
 </div>
- <div><span>Data: a &#8226; Chart ID: <a href="Chart_ScatterChartID5303fce2c72.html">ScatterChartID5303fce2c72</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+ <div><span>Data: a &#8226; Chart ID: <a href="Chart_ScatterChartID16f828503746.html">ScatterChartID16f828503746</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
-  R version 3.3.0 (2016-05-03) 
+  R version 3.2.3 (2015-12-10) 
   &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/scatterchart">Documentation and Data Policy</a>
 </span></div>
 <div>
